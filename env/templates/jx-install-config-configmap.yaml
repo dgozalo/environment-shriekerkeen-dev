@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQN8nc63cN1kzLF+dg7IXFNjANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQzOGZmZTcwNS1mMjA3LTQ4M2EtYmI3My1jMWU1YTAwMTJkNTEw
+    HhcNMTkwNTA3MTEzNDE2WhcNMjQwNTA1MTIzNDE2WjAvMS0wKwYDVQQDEyQzOGZm
+    ZTcwNS1mMjA3LTQ4M2EtYmI3My1jMWU1YTAwMTJkNTEwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQDCrZRf5bGNUMVwy/XRzFlBkgOW+64w7CVAKZbSRDtQ
+    4zmMPVrQmNmrv1/7y/i/Pi7KCFci1u0ObEZLQhSGv1l8XIBeXrsBMPpjwneW3svS
+    HiFrFjOCJiEq25sMvdI/D0hOTqkJL6WTjWB6FzpNCexQmKjPkdb8IZatoPOE0v9v
+    aR6sfTnBG//FEfAxvyG1AtHhMVWtDtxaKTmewhfD8rUyOV+F4wepURjzSlVpwwFy
+    b2ZhM+K9B3ZDVLlI1SguLt5qRz3Hoj5Eo7hEjzjv9VYaaLkNzKbdVARzWnbUOFH0
+    uIRvnjx5mz45OkzLYM3rO8iQ7WzuY4qeO71JKxo9Ju4tAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBH
+    JdO3nbCXNaqDQXCZnmLS/DJ0nX9+DnePhw9uiBshy4sCdWRIVxbKOi0q6wfcEzQ6
+    UNF2clcEhNoSlqA8f5v6OEqogfyXyJFgsCXfPSs08ptRCh+to2japfvwNkaRYHnF
+    n+4hEad4/fdQRU8GLOQmpYouintWYhZxwP2a+zpADc+E/z5uZ9ELUqLbrwwbIpF8
+    0kkvJAcpaTPhIhuRlJVHPbubMWyB5QJJfe1HX4wI/pLeeevY6LghGtAQPEmxf1kw
+    vpeMA0Bbm925+f9u7soHvcI8bbPjWX1K3TDDyef9ourQp3IBmgCyrbn8EzUnqijJ
+    f0RALKy9MD/sKJo2Nh/S
+    -----END CERTIFICATE-----
+  clusterName: shriekerkeen
+  jx-install-version: 2.0.0-dev+3ca6a4549
+  kubeProvider: gke
+  projectID: apps-dev-229310
+  region: ""
+  secretsLocation: vault
+  server: https://34.76.101.127
+  systemVaultName: jx-vault-shriekerkeen
+  zone: europe-west1-c
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
